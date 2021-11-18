@@ -1,0 +1,61 @@
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 90px;
+}
+body{
+    display: flex;
+    align-items: center;
+}
+.fundo{
+    background-color: rgba(128, 128, 128, 0.459);
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal{
+    background-color: white;
+    width: 50%;
+    height: 70%;
+    border-radius: 10px;
+    animation: go-back 1s;
+    padding: 0 29px;
+}
+
+@keyframes go-back {
+  from {
+    transform: translateY(-900px);
+  }
+  to {
+    transform: translateY(0);
+  }
+} 
+.pBotao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 65px;
+    margin-top: 121px;
+}
+.div_input{
+    display: grid;
+}
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subTitulo{
+    margin: 10px;
+}
+input{
+    max-width: 70%;
+}
