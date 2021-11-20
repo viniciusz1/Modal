@@ -1,0 +1,21 @@
+#chat {
+    width: 100%;
+    border: black solid 1px;
+    min-height: 200px;
+}
+
+.fundoVerde {
+    background-color: green;
+}
+
+.fundoAzul {
+    background-color: blue;
+}
+
+.containerMensagem {
+    display: flex;
+}
+
+.alinhaADireita {
+    margin-left: auto;
+}

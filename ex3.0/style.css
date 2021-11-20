@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+button{
+    background-color: rgb(51, 45, 45);
+    border: black solid 3px;
+    color: white;
+    height: 50px;
+    width: 100px;
+    font-size: 25px;
+    border-radius: 10px;
+    margin: 58px 0px 0px 0px;
+    transition: 0.7s;
+}
+
+
+button:hover{
+    background-color: rgb(255, 255, 255);
+    border: black solid 3px;
+    color: rgb(0, 0, 0);
+    height: 50px;
+    width: 100px;
+    font-size: 25px;
+    border-radius: 10px;
+    margin: 58px 0px 0px 0px;
+    transition: 0.7s;
+}
+
+.Quadrado{
+    background-color: blue;
+    height: 580px;
+    width: 590px;
+    border-radius: 10px;
+}
+
+.fundo{
+    animation-duration: 3s;
+    animation-name: aparecer;
+    background-color: rgba(22, 22, 22, 0.548);
+    height: 100vh;
+    width: 100vw;
+    margin: -108px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@keyframes aparecer{
+    from{
+        background: #fff;
+    }
+    to{
+        background: rgba(22, 22, 22, 0.548);
+    }
+}
+
+.modal{
+    background-color: white;
+    height: 602px;
+    width: 633px;
+    border-radius: 20px;
+    border: black solid 1px;
+    animation: go-back 1s;
+}
+@keyframes go-back {
+    from {
+      transform: translateY(-500px);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+
+h1{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px 0px 0px;
+}
+
+p{
+    margin: 20px 0px 0px 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+input{
+    height: 25px;
+    width: 400px;
+    border: none;
+    box-shadow: black 0px 2px 0px 0px;
+    font-size: 17px;
+    outline: none;
+}
+
+.botaoCadastrar{
+    width: 130px;
+    background-color: grey;
+    border: #9b6161 solid 1px;
+    color: rgb(0, 0, 0);
+    height: 50px;
+    font-size: 25px;
+    border-radius: 10px;
+    margin: 58px 0px 0px 0px;
+    transition: 0.7s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.botaoCadastrar:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    background-color: grey;
+    border: #4b3030 solid 1px;
+    color: rgb(255, 255, 255);
+    height: 50px;
+    font-size: 25px;
+    border-radius: 10px;
+    margin: 58px 0px 0px 0px;
+    transition: 0.7s;
+}
+
+.botaoCancelar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7px;
+    width: 130px;
+    background-color: grey;
+    border: #9b6161 solid 1px;
+    color: rgb(0, 0, 0);
+    height: 50px;
+    font-size: 25px;
+    border-radius: 10px;
+    margin: 58px 0px 0px 0px;
+    transition: 0.7s;
+}
+
+.botaoCancelar:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7px;
+    width: 130px;
+    background-color: grey;
+    border: #4b3030 solid 1px;
+    color: rgb(255, 255, 255);
+    height: 50px;
+    font-size: 25px;
+    border-radius: 10px;
+    margin: 58px 0px 0px 0px;
+    transition: 0.7s;
+}
+
+.conteudo3{
+    font-family: sans-serif;
+}
+
+.listaCadastro{
+    background-color: white;
+    height: 602px;
+    width: 633px;
+    border-radius: 20px;
+    border: black solid 1px;
+    animation: go-back 1s;
+}
+@keyframes go-back {
+    from {
+      transform: translateY(-500px);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
