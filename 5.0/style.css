@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');   
+*{
+    font-family: 'Roboto', sans-serif;
+}
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 90px;
+}
+body{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.fundo{
+    background-color: rgba(128, 128, 128, 0.459);
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal{
+    background-color: white;
+    animation: go-back 1s;
+    border-radius: 20px;
+    padding: 30px
+}
+
+@keyframes go-back {
+  from {
+    transform: translateY(-900px);
+  }
+  to {
+    transform: translateY(0);
+  }
+} 
+.footer{
+    align-items: center;
+    justify-content: center;
+    column-gap: 65px;
+}
+.main{
+    display: grid;
+}
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.divBotao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 60px;
+}
+.subTitulo{
+    margin: 10px;
+}
+input{
+    max-width: 70%;
+    margin: 20px;
+}
+.alerta{
+    color: white;
+    background-color: red;
+    padding: 11px;
+    margin: 20px 0;
+    text-align: center;
+}
+.alertaVerde{
+    color: white;
+    background-color: green;
+    padding: 11px;
+    margin: 20px 0;
+    text-align: center;
+}
+.espaco{
+    height: 81px;
+    width: 210px;
+}
+.telaToda{
+    height: 100vh;
+    width: 100vw;
+}
+table{
+    background-color: aqua;
+    border: solid black 2px;
+}
+td{
+    
+    border: solid black 2px;
+}
